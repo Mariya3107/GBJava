@@ -1,4 +1,4 @@
-package lesson4;
+package taskthreads;
 
 public class Task1 {
     static volatile char c = 'A';
@@ -37,4 +37,3 @@ public class Task1 {
         new Thread(new Wait('C', 'A')).start();
     }
 }
-
